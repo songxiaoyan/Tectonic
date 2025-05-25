@@ -1,0 +1,2 @@
+config.com.tectonic.common.redis.CacheConfiguration
+config.com.tectonic.common.redis.RedisConfiguration
