@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.tectonic</groupId>
+        <artifactId>tectonic-common</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>common-satoken</artifactId>
+
+    <description>
+        tectonic-common-satoken 权限认证服务
+    </description>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>cn.dev33</groupId>
+            <artifactId>sa-token-core</artifactId>
+        </dependency>
+
+        <!-- Sa-Token 整合 jwt -->
+        <dependency>
+            <groupId>cn.dev33</groupId>
+            <artifactId>sa-token-jwt</artifactId>
+            <version>${satoken.version}</version>
+        </dependency>
+
+        <!-- Tectonic Api System -->
+        <dependency>
+            <groupId>com.tectonic.tectonic.api.system</groupId>
+            <artifactId>tectonic-api-system</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+        <!-- Tectonic Common Redis-->
+        <dependency>
+            <groupId>com.tectonic</groupId>
+            <artifactId>common-redis</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.ben-manes.caffeine</groupId>
+            <artifactId>caffeine</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>

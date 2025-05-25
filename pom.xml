@@ -10,8 +10,8 @@
   <name>Tectonic</name>
   <url>http://maven.apache.org</url>
   <modules>
-    <module>common-redis</module>
-    <module>common-core</module>
+    <module>tectonic-api-system</module>
+    <module>tectonic-common</module>
   </modules>
 
   <properties>

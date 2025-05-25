@@ -6,7 +6,7 @@
     <description>tectonic-common-redis</description>
     <parent>
         <groupId>com.tectonic</groupId>
-        <artifactId>Tectonic</artifactId>
+        <artifactId>tectonic-common</artifactId>
         <version>${revision}</version>
     </parent>
 
